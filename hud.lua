@@ -34,6 +34,7 @@ CreateThread(function()
 
 		 DrawRect(0.005,0.885,0.005,0.173,40,40,40,150) -- RPM bar full
 		 DrawRect(0.005 ,0.885+(0.173-rpm/7)/2,0.005,(rpm/7),255,255,255,255) -- RPM Bar in white
+		Wait(0)
      else
         Wait(500)
      end
